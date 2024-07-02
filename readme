@@ -1,1 +1,40 @@
 
+MyToken
+Definition
+MyToken is a custom Solidity ERC-20-like token. It can mint and burn tokens, while using public variables to store the name,
+abbreviation, and total supply of the token. This contract has a mapping for addresses with their balances of tokens.
+
+Requirements
+Public Variables:
+
+tokenName: The name of the token.
+
+tokenAbbrv: The abbreviation of the token.
+
+totalSupply: Token’s total supply.
+
+Mapping:
+
+balances: Stores addresses as well as their respective balances on tokens.
+Mint Function:
+
+Takes an address and a value as parameters.
+
+Increases the total supply by that value.
+
+As such, increases the balance of specified address by same amount.
+
+Burn Function:
+
+Takes an address and a value as parameters.
+
+Makes sure that specified amount isn’t greater than or equal to balance at specified address to be burnt .
+
+Henceforth, reduces total supply by this amount..
+
+In doing so, it also reduces balance at the specified address by the same volume.
+Execution Process
+Prerequisites
+Ensure you have Node.js and npm installed.
+Install Truffle or Hardhat for contract deployment and testing.
+Set up a local Ethereum blockchain using Ganache or use a testnet like Rinkeby
