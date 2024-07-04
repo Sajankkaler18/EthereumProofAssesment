@@ -7,9 +7,8 @@
 ## Requirements
 
 ### Public Variables:
-- **tokenName**: The name of the token.
-- **tokenAbbrv**: The abbreviation of the token.
-- **totalSupply**: Token’s total supply.
+- **tokenName**: MyToke.
+- **tokenAbbrv**: MTK.
 
 ### Mapping:
 - **balances**: Stores addresses as well as their respective balances on tokens.
