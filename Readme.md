@@ -47,6 +47,10 @@
     ```
 
 ## Usage
-### Compile the Contract
+### Compile the Contract 
+
 ```bash
 truffle compile
+
+
+
